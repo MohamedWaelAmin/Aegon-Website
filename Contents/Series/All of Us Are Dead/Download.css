@@ -1,0 +1,285 @@
+#icon{
+    background-color: #ebb22d;
+    color: #ebb22d;
+}
+p{
+    color: aliceblue;
+}
+*{zoom: 112%;}
+/*     ////////////////////////// end of nav bar //////////////////////////////       */
+
+.headder {
+    height:15px;
+    background-color: rgb(3, 199, 232);
+    font-size: xx-small;
+    text-align:center;
+    opacity:.9;
+}
+
+/* under nav bar  */
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #0988a5;
+}
+/*dvdkmvkdmvdnvk*/
+.container {
+    position: relative;
+    bottom:10px;
+    width:1000px;
+    
+}
+ .rightt{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    left: 400px;
+}
+.thumbnail{
+    position: relative;
+    left: 145px;
+    width: 200px;
+    height: 260px;
+    max-width: 300px;
+}
+.thumbnail img {
+    display: block;
+    border-radius: 5px;
+}
+.see-btn {
+    background: linear-gradient(45deg, #0dd44a, #0ab53f);
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.leftt{
+    position: relative;
+    width: 520px;
+    height: 500px;
+    bottom: 525px;
+    
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.fa, .fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+}
+.post-dtl {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    position: relative;
+    top:22px;
+    left: 10px;
+    width:500px;
+    height:836px;
+}
+h1.main-title {
+    font-size: 22px;
+    padding: 15px 10px;
+    margin-bottom: 0;
+}
+
+.main-title {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: black;
+}
+ul.post-information {
+    font-size: 16px;
+
+}
+.list-unstyled {
+    list-style: none;
+
+}
+ul.post-information li {
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    bottom: 25px;
+    right: 35px;
+    width: 397px;
+    
+}
+
+.flex-start {
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.align-center {
+    align-items: center;
+    
+}
+
+ul.post-information li label {
+    width: 116px;
+    border-right: 1px solid #ddd;
+    margin-right:10px;
+    margin-left: 30px;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+
+}
+label{
+    position: relative;
+    right: 35px;
+    display: inline-block;
+    text-decoration-line: none;
+}
+.flex-1 {
+    flex: 1;
+    
+}
+.mohamed{
+    color: blue;
+    display: inline-block;
+}
+/*bhbjnknkmmlm;,;//*/
+/* h2.main-title.main-color {
+    background: #f9f9f9;
+}
+
+.main-title {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.list-unstyled {
+    list-style: none;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.likes li {
+ font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-top: 13px;
+}
+
+.like-box span {
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    font-weight: bold;
+    vertical-align: middle;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    margin-left: 21px;
+    line-height: 43px;
+    align-items: center;
+    display: inline-flex;
+}  */
+.ratingg{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+
+}
+h2.ratingh{
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: black;
+}
+span#rate{
+    border: 5px solid #2e6fbf;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    padding-left: 17px;
+    padding-top: 20px;
+    padding-right: 1px;
+}
+
+span#ratee{
+    position: relative;
+    left: 23px;
+    display: inline-block;
+}
+.likes{
+    position: relative;
+    bottom: 43px;
+    left: 165px;
+}
+.dislikes{
+    position: relative;
+    bottom: 73.5px;
+    left: 225px;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+.fa-thumbs-up:before {
+    content: "\f164"
+}
+.fa-thumbs-down:before {
+    content: "\f165";
+}
+.viewingg{
+    position: relative;
+    width: 110%;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding-bottom: 15px;
+    
+}
+body{
+    width: 900px;   
+}
+.fa-play{
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 110px;
+    left: 150px;    
+} 
+#play,#PrinceofPersiaTheSandsofTime,#Expendables,#Bloodshot,#GodsOfEgypt,#JohnWick,#kickoxer
+,#BloodAndBone,#Residentevil,#BlackAdam,#Aquaman,#AlitaBattleAngel,#sand{
+    position: relative;
+    width: 353px;
+    height: 240px;
+    left: 320px;
+    background-color: #343435;
+}
+#download{
+    position: relative;
+    bottom: 260px;
+    left: 460px;
+    font-weight: bold;
+}
