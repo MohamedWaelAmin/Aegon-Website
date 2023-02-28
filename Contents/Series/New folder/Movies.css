@@ -1,0 +1,359 @@
+body{
+    background:#353b45 !important;
+    font-family:'Poppins';
+  }
+  
+  #icon{
+    background-color: #ebb22d;
+    color: #ebb22d;
+  
+  }
+  p{
+    color: aliceblue;
+  }
+  
+  button{
+    background-color: black;
+  }
+  button1{
+    /*font-weight: bold;*/
+    font-size:22px;
+    padding-top:3px;
+    padding-bottom: 3px;
+    position:relative;
+    top:0px;
+    right:0px;
+    padding-right: 15px;
+    color: #0ec9f3;
+  }
+  button1:hover{
+    cursor: pointer;
+    background-color: #353b45 ;
+    color: rgb(255, 255, 255);
+  }
+  *up_down{
+    
+        width: 200px;
+        height: 65px;
+        background-color: coral;
+        overflow: visible;
+      
+  }
+  #background-video {
+    height: 45px;
+    width:45px;
+    object-fit: cover;
+    left: 0;
+    right:0;
+    top:0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 50%;
+    display: inline-block;  
+  }
+  /* *{zoom: 108%;} */
+  .nav-bar-abbreviation {
+    font-size: 1px;
+    padding-top:7px;
+    position:relative;
+    top:0px;
+    left:10px;
+    color: #0ec9f3;
+  }
+  
+  
+  #search {
+    font-size:  large;
+    position: relative;
+    top:0px;
+    left: 30px;
+    width:250px;
+    
+  }
+  #sign {
+    font-size: 22px;
+    position: relative;
+    top:0px;
+    right:-225px;   
+    padding:5px;
+    text-decoration-line: none;
+    color:#0ec9f3;
+    
+  }
+  
+  #sign:hover{
+    background-color:#353b45;
+    color: rgb(255, 255, 255);
+    cursor:pointer;
+  }
+  
+  #register {
+    text-decoration: none;
+    color:white;
+    background-color: #09697c;
+    padding:3px;
+    position: relative;
+    top:0px;
+    right:-215px; 
+    font-size: 22px;
+    /* right:-75px;  */
+  
+  }
+
+
+/*     ////////////////////////// end of nav bar //////////////////////////////       */
+
+.headder {
+    height:15px;
+    background-color: rgb(3, 199, 232);
+    font-size: xx-small;
+    text-align:center;
+    opacity:.9;
+}
+/* under nav bar  */
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #0988a5;
+}
+/*////////////header end///////*/
+/* *{zoom: 109%;} */
+.page2 {
+    height:900px;
+    background-color: #EEE;
+    margin-top: 40px;
+
+    position: relative;
+   /* background-image: url("img/games.jpeg");
+background-repeat: no-repeat;*/
+
+}
+
+#paragraph1 {
+    margin-left: 130px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #00262b;
+
+}
+
+.page2-all-header {
+    font-size: 20px;
+    font-family: sans-serif;
+  
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#head1 {
+    margin-left: 105px;
+}
+
+.page2-all-header:hover {
+    background-color: white;
+
+}
+
+.box1 {
+    margin-top: 10px;
+    width:135px;
+    height:85px;
+    background-color:white;
+    border-radius:10px;
+    margin-left:130px;
+    text-align: center;
+    cursor: pointer;
+}
+.box1:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-image1 {
+    width:120px;
+    border-radius:10px;
+    height:85px;
+} 
+.box-image2 {
+    width:120px;
+    height: 85px;
+    border-radius:10px;
+
+} .box-image3 {
+    width:120px;
+    height: 85px;
+    border-radius:10px;
+
+} .box-image4 {
+    width:120px;
+    height: 85px;
+    border-radius:10px;
+
+} 
+   .box-p1 {
+    font-size: 9px;
+    font-weight: bold;
+    color: black;
+}
+#second-box {
+    position:absolute;
+    top:107px;
+    left:220px;
+}
+
+#third-box {
+    position: absolute;
+    top: 107px;
+    left: 450px;
+}
+#forth-box {
+    position: absolute;
+    top: 107px;
+    left: 680px;
+}
+/*/////////////box1//////////////////*/
+.box2 {
+    margin-top: 55px;
+    width:140px;
+    height:85px;
+    background-color:white;
+    border-radius:10px;
+    margin-left:130px;
+    text-align: center;
+    cursor: pointer;
+}
+.box2:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-image5 {
+    width:120px;
+    height: 85px;
+    border-radius:10px;
+
+} 
+.box-image6 {
+    width:120px;
+    height: 85px;
+    border-radius:10px;
+
+} .box-image7 {
+    width:120px;
+    height: 85px;
+    border-radius:10px;
+
+} .box-image8 {
+    width:120px;
+    height: 85px;
+    border-radius:10px;
+
+} 
+   .box-p1 {
+    font-size: 9px;
+    font-weight: bold;
+    color: black;
+}
+ #sex-box {
+    position:absolute;
+    top:314px;
+    left:220px;
+}
+#seven-box {
+    position: absolute;
+    top: 314px;
+    left: 450px;
+}
+#eight-box {
+    position: absolute;
+    top: 314px;
+    left: 680px;
+} 
+/*/////////////box2/////////////////*/
+.box3 {
+    margin-top: 65px;
+    width:135px;
+    height:85px;
+    background-color:white;
+    border-radius:10px;
+    margin-left:130px;
+    text-align: center;
+    cursor: pointer;
+}
+.box3:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-image9 {
+    width:120px;
+    height: 85px;
+    border-radius:10px;
+
+} 
+.box-image10 {
+    width:120px;
+    height: 85px;
+    border-radius:10px;
+
+} .box-image11 {
+    width:120px;
+    height:85px;
+    border-radius:10px;
+
+} .box-image12 {
+    width:120px;
+    height: 85px;
+    border-radius:10px;
+
+} 
+ #ten-box {
+    position:absolute;
+    top:552px;
+    left:220px;
+}
+
+#eleven-box {
+    position: absolute;
+    top: 552px;
+    left: 450px;
+}
+#twelve-box {
+    position: absolute;
+    top: 552px;
+    left: 680px;
+}
+/*//////////////box3///////////////*/
+#page2-link {
+    color:black;
+    opacity:.8;
+    font-size: 10px;
+    position:absolute;
+    bottom:2px;
+    text-decoration: underline;
+    left:420px;
+    font-family: sans-serif;
+}
+/*///////////////end of games//////*/
+
+
+/* //////////////////// */
+.box-image1,.box-image2,.box-image3,.box-image4,.box-image5
+,.box-image6,.box-image7,.box-image8,.box-image9
+,.box-image10,.box-image11,.box-image12{ 
+    width:200px;
+    border-radius:10px;
+    height:180px;
+} 
+.box1,.box2,.box3{
+    margin-bottom: 165px;
+}
+.box-p1{
+    font-weight: bold;
+font-size: 19px;
+/* margin-left: 15px; */
+}
