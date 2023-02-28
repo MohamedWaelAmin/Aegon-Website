@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="assests/css/Account.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body background="img/background.jpg">
+    <header class="header-scroll">
+        <div class="logo">
+            <h1>𝒜ℰ𝒢𝒪𝒩</h1>        
+        </div>
+          <div class="clear"></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <span class="dropdown">
+                <a  id="drop" style="cursor: pointer;"> Contents</a>
+                 <div class="dropdown-menu">
+                     <a href="games.html">Games</a>
+                     <a href="courses.html">Courses</a>
+                     <a href="movies.html">Movies</a>
+                     <a href="series.html">Series</a>
+                     <a href="programes.html">Programes</a>
+                     <a href="degrees.html">Degrees</a>
+                 </div>
+            </span>
+            <a href="shop.html">Shop</a>
+            <a href="aboutme.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+            <button class="btnLogin-popup" class="active">Login<i class="fa-regular fa-user" style="margin-left: 10px;"></i></button>
+            <!-- <a href="Account.html">Account<i class="fa-regular fa-user" style="margin-left: 10px;"></i></a> -->
+    
+        </nav>
+        
+    </header>
+<div class="wrapper">
+    <span class="icon-close">
+        <ion-icon name="close-outline"></ion-icon>    </span>
+    <div class="form-box login">
+        <h2>Login</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail"></ion-icon>
+                </span>
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="remember-forget">
+                <label>
+                    <input type="checkbox">
+                    Remember me
+                </label>
+            </div>
+            <button type="submit" class="btn" onclick="login()">Login</button>
+            <div class="login-register">
+                <p>Don't have an acoount?
+                <a href="#" class="register-link">Register</a>
+                </p>
+            </div>
+        </form>
+    </div>
+    <div class="form-box register">
+        <!-- <button type="submit" id="otb-btn" class="btn">Register</button> -->
+        <h2>Register</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="person"></ion-icon>               
+                 </span>
+                <input type="text" name="otpuser" required>
+                <label>Username</label>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail"></ion-icon>
+                </span>
+                <input type="email" name="otpcode" required>
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="password" name="otbpass" required>
+                <label>Password</label>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="password" name="confpass" required>
+                <label>Confirm Password</label>
+            </div>
+            <div class="remember-forget">
+                <label>
+                    <input type="checkbox">
+                    I agree the terms & conditions
+                </label>
+            </div>
+            <button type="submit" id="otb-btn" class="btn" onclick="validation()">Register</button>
+            <div class="login-register">
+                <p>Already have an acoount?
+                <a href="#" class="login-link">Login</a>
+                </p>
+            </div>
+        </form>
+    </div>
+    <div class="form-box otp">
+        <h2>OTP Verification</h2>
+        <div id="otp">
+            <p id="otpmessage">We've sent vertification code to your email : </p>
+        </div>
+        <br><br>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" name="codetest" required>
+                <label>Enter verification code</label>
+            </div>
+            <!-- <button onclick="sub()">wsws</button> -->
+        </form>
+        <button class="btn"onclick="sub()" >Submit</button>
+    </div>
+</div>
+</script><script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="assests/js/Account.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</script>
+</body>
+</html>

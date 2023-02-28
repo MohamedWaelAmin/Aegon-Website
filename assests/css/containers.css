@@ -1,0 +1,375 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family:'Poppins';
+}
+header{
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  /*background-color: black;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1{
+  color: white;
+}
+header nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  margin-right: 18px;
+}
+header nav a:hover,header nav a.active{
+content: "";
+border-bottom: 4px solid #6195ff ;
+border-start-end-radius: 50%;
+transition: width 0.5s;
+width: 100%; 
+}
+.clear{
+  clear: both;
+}
+.dropdown{
+  position: relative;
+  }
+  .dropdown-menu{
+  position: absolute;
+  background-color: #fff;
+  width: 100px;
+  text-align: center;
+  left: -17px;
+  top: 25px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ,visibility 0.5s;
+  }
+.dropdown-menu a{
+  margin-bottom: 3px;
+  font-size: 1.4em;
+    display: block;
+    padding: 3px;
+    text-decoration-line: none;
+    color: #000;
+    width: 100px;
+}
+.dropdown:hover .dropdown-menu{
+    opacity: 1;
+    visibility:visible;
+}
+.dropdown-menu  a:hover {
+    color: red;
+    border: none;
+}
+.dropbtn {
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 302px;
+  top: 2px;
+}       
+#myInput {
+  font-size: 19px;
+  width: 278px;
+  height: 20px;
+}
+    
+/* The search field when it gets focus/clicked on */
+#myInput:focus {outline: 3px solid #ddd;}
+    
+/* The container <div> - needed to position the dropdown content */
+.dropdownn {
+  position: relative;
+  display: inline-block;
+  width: 10px;
+}
+    
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 278px;
+  border: 1px solid #ddd;
+  z-index: 1;
+  left: 258px;
+  top: 20px;
+  max-height: 230px;
+  overflow-y: scroll;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+#search {
+  font-size:  medium;
+  position: relative;
+  bottom:25px;
+  right: 100px;
+  width:150px;  
+}
+/* //////////////////end of nav header///////////// */
+.home{
+  height: 100vh;
+  /* background-image: url(img/games.jpeg); */
+  background-size: cover;
+  position: relative;
+}
+.home-images img{
+  height: 100vh;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0,0.4);
+}
+
+.home-content{
+  position: absolute;
+  width: 65%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.home .title{
+  color: #fff;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+.home .home-desc{
+  margin: 20px 0;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+.home .btn{
+  min-width: 160px;
+  padding: 15px 0;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-size: 18px;
+}
+.home .btn-start{
+  margin-right: 10px;
+  background-color: #fff;
+}
+.home .btn-learn{
+  color: #fff;
+  background-color: #2b5a88;
+}
+.hover-opacity{
+  transition:  .5s;
+}
+.hover-opacity:hover{
+  opacity: 0.5;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration:1.5s;
+}
+
+ @keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 
+
+/*     ////////////////////////// end of nav bar //////////////////////////////       */    
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color: #0988a5;
+}
+/*////////////header end///////*/
+.page2 {
+  background-color: #EEE;
+  position: relative;
+}
+
+#paragraph1 {
+margin-left: 130px;
+font-size: 30px;
+font-family: sans-serif;
+font-weight: bold;
+color: #00262b;
+position: relative;
+top: 30px;
+}
+.page2-header {
+  margin-left: 105px;
+}
+.page2-all-header {
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.page2-all-header:hover {
+  background-color: white; 
+}
+.page2-all-header a{
+  text-decoration-line: none;
+  color: #000;
+}
+/* ////////////////////// */
+section {
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.projects {
+  background-color: #000013;
+}
+
+.projects .content{
+  margin-top: 30px;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #fff;
+  min-height: 14em;
+  width: 19em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease;
+}
+
+.project-card:hover {
+ transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+  opacity: 0.9;
+}
+
+.project-image img{
+  width: 100%;
+  height: 250px;
+}
+
+.project-info {
+  padding: 1em;
+}
+.project-title{
+  display: flex;
+  /* justify-content: space-between; */
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.project-info span{
+font-size: 1.4em;
+font-weight: 800;
+}
+.more-details {
+  text-decoration: none;
+  color: #3a6cf4;
+}
+
+.more-details:hover {
+  color: #601cfc;
+}
+#buttons{
+  margin-left: 45%;
+}
+#buttons button{
+  font-size: 20px;
+  width: 25px;
+  margin-right: -4px;
+  cursor: pointer;
+}
+#buttons button:hover,#visit{
+  color: #ddd;
+  background-color: #000;
+}
+.contact .icon{
+  font-size: 4.5em;
+}
+
+.contact .info h3 {
+  color: #000;
+}
+
+.contact .info p {
+  font-size: 1.5em;
+}
+.social-icons a {
+  color: #fff;
+  font-size: 1.7em;
+  padding-right: 30px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #3a6cf4;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #fff;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card .icon {
+  color: #3a6cf4;
+  font-size: 8em;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h3{
+  color: #3a6cf4;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}

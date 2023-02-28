@@ -1,0 +1,443 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family:'Poppins';
+}
+body{
+  font-family:'Poppins';
+  background:#353b45 !important;
+}
+/* .header-scroll{
+  width: 100%;
+  position: fixed;
+  z-index: 888;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+header{
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1{
+  color: white;
+}
+header nav{
+  margin-right: -10px;
+}
+header nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  margin-right: 18px;
+}
+header nav a:hover,header nav a.active{
+content: "";
+border-bottom: 4px solid #6195ff ;
+border-start-end-radius: 50%;
+transition: width 0.5s;
+width: 100%; 
+}
+.clear{
+  clear: both;
+}
+.dropdown{
+  position: relative;
+  }
+  .dropdown-menu{
+  position: absolute;
+  background-color: #fff;
+  width: 100px;
+  text-align: center;
+  left: -17px;
+  top: 25px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ,visibility 0.5s;
+  }
+.dropdown-menu a{
+  margin-bottom: 3px;
+  font-size: 1.4em;
+    display: block;
+    padding: 3px;
+    text-decoration-line: none;
+    color: #000;
+    width: 100px;
+}
+.dropdown:hover .dropdown-menu{
+    opacity: 1;
+    visibility:visible;
+}
+.dropdown-menu  a:hover {
+    color: red;
+    border: none;
+}
+.dropbtn {
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 302px;
+  top: 2px;
+}       
+#myInput {
+  font-size: 19px;
+  width: 278px;
+  height: 20px;
+}
+    
+/* The search field when it gets focus/clicked on */
+#myInput:focus {outline: 3px solid #ddd;}
+    
+/* The container <div> - needed to position the dropdown content */
+.dropdownn {
+  position: relative;
+  display: inline-block;
+  width: 10px;
+}
+    
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 278px;
+  border: 1px solid #ddd;
+  z-index: 1;
+  left: 258px;
+  top: 20px;
+  max-height: 230px;
+  overflow-y: scroll;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+#search {
+  font-size:  medium;
+  position: relative;
+  bottom:25px;
+  right: 100px;
+  width:150px;  
+}
+/* //////////////////end of nav header///////////// */
+.home{
+  height: 100vh;
+  background-image: url(img/background1.webp);
+  background-size: cover;
+  position: relative;
+}
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0,0.85);
+}
+
+.home-content{
+  position: absolute;
+  width: 65%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.home .title{
+  color: #fff;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+.home .home-desc{
+  margin: 20px 0;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+.home .btn{
+  min-width: 160px;
+  padding: 15px 0;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-size: 18px;
+}
+.home .btn-start{
+  margin-right: 10px;
+  background-color: #fff;
+}
+.home .btn-learn{
+  color: #fff;
+  background-color: #2b5a88;
+}
+.hover-opacity{
+  transition:  .5s;
+}
+.hover-opacity:hover{
+  opacity: 0.5;
+}
+/* //////////// end of home content ///////////////*/
+img{
+  border-radius: 10%;
+}
+/* .headder {
+  height:15px;
+  background-color: rgb(3, 199, 232);
+  font-size: xx-small;
+  text-align:center;
+  opacity:.9;
+} */
+/* under nav bar  */
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color: #0988a5;
+}
+
+  /*     ////////////////////////// end of nav bar //////////////////////////////       */
+      .Explore{
+    text-align: center;
+    animation: Example 1s infinite;
+  }
+  @keyframes Example{
+    from{color: rgb(0, 0, 255);}
+    to{color: black;}
+  } 
+  /* ///////////// end of explore //////////////// */
+  .flt-left,.flt-leftt,.gooin,.feel,.goon,.fool,.gone,.folt,.gonnn,.fltoo{
+    float:left;
+  }
+  .games,.movies,.series,.courses,.programs{
+    width:100%;
+    margin:auto;
+  }
+  .row,.din,.doon,.dow,.don{
+    width:90%;
+    padding:0;
+    overflow:hidden;
+    margin:auto;
+  }
+  .row-container,.din-comaa,.doon-coaa,.dow-conr,.don-corm{
+    width:2000px;
+    transition:0.5s;
+  }
+  .container,.comaa,.coaa,.conr,.corm{
+    width:250px;
+    float:left;
+    display:inline;
+    margin:0 5px;
+  }
+  .clear,.clac,.cllt,.clar,.cla{
+    clear:both;
+  }
+  .controls{
+    width:100%;
+    margin:auto;
+  }
+  .flt-leftt,.feel,.fool,.folt,.fltoo{
+    border:none;
+    padding:100px 20px;
+    color:white;
+    background:#21252b;
+    font-weight:bold;
+    outline:none;
+    border-radius:3px;
+    height:200px;
+    position:relative;
+  } 
+  /* /////////////////////////////// */
+  /* ////////////////////////////// */
+  /* ///////////////////////////// */
+.page4 {
+   
+    margin-top: 80px;
+    
+    height:300px;
+    position: relative;
+    color: #454545;
+    background-color: #575757;
+}
+
+#p1 {
+    font-size: 30px;
+    font-weight:bold;
+    font-family: sans-serif;
+    color:#00262b;
+    margin-left:20%;
+    margin-top: 70px;
+    padding-top: 50px;
+}
+
+#p2 {
+    margin-top: -4px;
+    font-size:12px;
+    opacity:.7;
+    color: black;
+    margin-left: 20%;
+}
+
+#image-page4 {
+    position: absolute;
+    top:40px;
+    right:130px;
+    width:250px;
+}
+
+#page4-button {
+    background-color:#00262b;
+    color: white;
+    position:absolute;
+    top:200px;
+    left: 230px;
+    margin-top: -30px;
+    font-size: 12px;
+    padding:5px;
+}
+#page4-button:hover{background-color: #244b50;}
+
+/*       end of page4       */
+
+.page5 {
+    height: 330px;
+    background-color:#00262b;
+    position:relative;
+}
+
+#page5-p1 {
+    font-size:12px;
+    color:white;
+    margin-left: 17%;
+    margin-top: 50px;
+    position: absolute;
+    opacity: .8;
+}
+
+#page5-p2 {
+    color:white;
+    font-size: 20px;
+    font-family: sans-serif;
+    position:absolute;
+    margin-left: 150px ;
+    margin-top: 70px;
+}
+
+#but {
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 7px;
+    padding:5px;
+    color:#00262b;
+    margin-top: 210px;
+    margin-left: 150px;    
+}
+
+#but:hover {
+    background-color: #375f64;
+    color:white;
+    cursor: pointer;
+}
+
+#page5-img {
+    position:absolute;
+    right:100px;
+    bottom: 0px;
+    width:400px;
+}
+/* ///////////////////////// */
+section {
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.7em;
+  padding-right: 30px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #3a6cf4;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+
+
+.card {
+  background-color: #fff;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card .icon {
+  color: #3a6cf4;
+  font-size: 8em;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h3{
+  color: #3a6cf4;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+.contact .icon{
+  font-size: 4.5em;
+}
+
+.contact .info h3 {
+  color: #000;
+}
+
+.contact .info p {
+  font-size: 1.5em;
+}
+
+/* ////////end of page//////// */
+
