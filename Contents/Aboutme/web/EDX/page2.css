@@ -1,0 +1,98 @@
+.page2 {
+    height:310px;
+    background-color: #EEE;
+    margin-top: 40px;
+    position: relative;
+}
+
+#paragraph1 {
+    margin-left: 130px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #00262b;
+
+}
+
+.page2-all-header {
+    font-size: 10px;
+    font-family: sans-serif;
+  
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#head1 {
+    margin-left: 105px;
+}
+
+.page2-all-header:hover {
+    background-color: white;
+
+}
+
+.box {
+    margin-top: 10px;
+    width:140px;
+    height:170px;
+    background-color: white;
+    border-radius:10px;
+    margin-left:130px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-image {
+    
+    width:120px;
+}
+
+.box-p1 {
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.box-p2 {
+    font-size:xx-small;
+    opacity: .7;
+
+}
+
+.box-p3 {
+    font-size:xx-small;
+    opacity: .7;
+    margin-left:-90px;
+}
+
+#second-box {
+    position:absolute;
+    top:83px;
+    left:150px;
+}
+
+#third-box {
+    position: absolute;
+    top: 83px;
+    left: 300px;
+}
+#forth-box {
+    position: absolute;
+    top: 83px;
+    left: 450px;
+}
+
+#page2-link {
+    color:black;
+    opacity:.8;
+    font-size: 10px;
+    position:absolute;
+    bottom:2px;
+    text-decoration: underline;
+    left:350px;
+    font-family: sans-serif;
+}

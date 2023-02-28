@@ -1,0 +1,92 @@
+#icon {
+    width:25px;
+    display: inline-block;        
+}
+*{zoom: 113%;}
+.nav-bar-abbreviation1 , .nav-bar-abbreviation2 , .nav-bar-abbreviation3 {
+    display: inline-block; 
+}
+
+.nav-bar-abbreviation {
+    font-size:1px;
+    padding-top:7px;
+    position:relative;
+    top:0px;
+    left:10px;
+}
+
+#nav-bar-abbreviation1, #nav-bar-abbreviation2,#nav-bar-abbreviation3 {
+    padding: 5px ;
+    font-size: 10px;
+    font: bold;
+}
+
+#nav-bar-abbreviation1:hover,#nav-bar-abbreviation2:hover,#nav-bar-abbreviation3:hover {
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+    cursor: pointer;
+}
+
+
+#search {
+    font-size:  xx-small;
+    position: relative;
+    top:0px;
+    left: 15px;
+    width:150px;
+    
+}
+
+#nav-def {
+    font-size: xx-small;
+    position: relative;
+    top:0px;
+    right:-290px;   
+    padding:5px;
+    text-decoration-line: none;
+    color:black   
+}
+
+#nav-def:hover{
+    background-color: rgb(219, 216, 216);
+    cursor:pointer;
+
+}
+
+#sign {
+    font-size: xx-small;
+    position: relative;
+    top:0px;
+    right:-290px;   
+    padding:5px;
+    text-decoration-line: none;
+    color:black
+}
+
+#sign:hover{
+    background-color: rgb(219, 216, 216);
+    cursor:pointer;
+}
+
+#register {
+    text-decoration: none;
+    color:white;
+    background-color: rgb(180, 48, 48);
+    padding:3px;
+    position: relative;
+    top:0px;
+    right:-290px; 
+}
+
+
+/*     ////////////////////////// end of nav bar //////////////////////////////       */
+
+.headder {
+    height:15px;
+    background-color: rgb(3, 199, 232);
+    font-size: xx-small;
+    text-align:center;
+    opacity:.9;
+}
+/* under nav bar  */
+

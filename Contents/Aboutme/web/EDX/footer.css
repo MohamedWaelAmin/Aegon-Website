@@ -1,0 +1,196 @@
+.footer {
+    height:400px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+}
+
+#footer-img {
+    width:45px;
+    padding-top: 30px;
+    padding-left: 17%;
+}
+/*              left list  (edX)        */
+.list {
+    font-size: 5px;
+    list-style-type: none;   
+    font-family: Inter,Helvetica Neue,Arial,sans-serif;
+}
+
+.h{
+    font-family: Inter,Helvetica Neue,Arial,sans-serif;
+    padding-left:40px;
+}
+
+li {
+    padding-top: 10px;
+    width:fit-content;
+    
+}
+a{
+    text-decoration-line: none;
+    color: black;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.left {
+    position:absolute;
+    left: 110px;
+}
+
+/*            center list  (Connect)         */
+
+.center {
+    position: absolute;
+    left: 220px;
+}
+
+.right {
+    position:absolute;
+    left:300px;
+}
+
+/* ////////////////////////// ///////////////////////// */
+
+#round-icon1 {
+    width:20px;
+    height:20px;
+    background-color: #00262b;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-family:sans-serif;
+    text-align: center;
+    position:absolute;
+    right:150px;
+    top: 30px;
+    cursor: pointer;
+}
+
+#round-icon2 {
+    width:20px;
+    height:20px;
+    background-color: #00262b;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-family:sans-serif;
+    text-align: center;
+    position:absolute;
+    right:125px;
+    top: 28px;
+    cursor: pointer;
+}
+
+#round-icon3 {
+    width:20px;
+    height:20px;
+    background-color: #00262b;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-family:sans-serif;
+    text-align: center;
+    position:absolute;
+    right:78px;
+    top: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+
+#round-icon4 {
+    zoom: 50%;
+    
+    width:20px;
+    height:15px;
+    background-color: #00262b;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-family:sans-serif;
+    text-align: center;
+    position:absolute;
+    right:120px;
+    top: 70px;
+    cursor: pointer;
+}
+
+#Language {
+    position:absolute;
+    right:150px;
+}
+
+#select {
+    position:absolute;
+    right:150px;
+    top:130px;
+    font-size: 10px;
+    font-family: sans-serif;
+    width:100px;
+    height:25px;
+}
+
+#select:focus {
+    border: 1px solid black;
+}
+
+#select:hover {
+    border: 1px solid black;
+}
+
+#footer-button {
+    background-color: rgb(229, 226, 226);
+    font-family: sans-serif; 
+    padding: 11px;
+    font-size: 8px;
+    font-weight: bold;
+    margin-left: 600px;
+    height:25px;
+    top: 70px;
+}
+
+#footer-button:hover {
+    background-color: #00262b;
+    color: white;
+}
+
+#app-store {
+    width:70px;
+    height: 25px;
+    position: absolute;
+    bottom:50px;
+    right: 190px;
+}
+
+#google-store {
+    width:70px;
+    height: 25px;
+    position: absolute;
+    bottom:50px;
+    right:110px;
+}
+
+.privacy {
+    font-size: 9px;
+    font-family: sans-serif;
+    margin-left:150px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+
+}
+
+#privacy-link {
+    color:rgb(58, 58, 180);
+    font-size: 9px;
+    text-decoration-line: none;
+}
+
+#privacy-link:hover {
+    text-decoration-line: underline;
+    color:black;
+}
