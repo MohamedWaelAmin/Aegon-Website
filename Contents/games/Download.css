@@ -1,0 +1,30 @@
+#icon{
+    background-color: #ebb22d;
+    color: #ebb22d;
+ 
+}
+p{
+    color: aliceblue;
+}
+*{zoom: 112%;}
+/*     ////////////////////////// end of nav bar //////////////////////////////       */
+
+.headder {
+    height:15px;
+    background-color: rgb(3, 199, 232);
+    font-size: xx-small;
+    text-align:center;
+    opacity:.9;
+}
+/* under nav bar  */
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #0988a5;
+}
+/*///////////////////*/
