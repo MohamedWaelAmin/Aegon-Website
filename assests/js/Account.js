@@ -68,7 +68,7 @@ function sub(){
 }
 function login()
 {
-    window.open("Home.html",'target=_self')
+    window.open("index.html",'target=_self')
 }
 
 // function validation(){
