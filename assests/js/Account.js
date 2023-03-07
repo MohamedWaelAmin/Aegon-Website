@@ -58,7 +58,7 @@ function sub(){
     }
     else if(codetext==codemo)
     {
-        window.open("Home.html",'target=_self')
+        window.open("index.html",'target=_self')
     }
     else
     {
